@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title></title>
+    <link href="/2021/03/24/howtobuild/"/>
+    <url>/2021/03/24/howtobuild/</url>
+    
+    <content type="html"><![CDATA[<h1 id="编写以及创造blog"><a href="#编写以及创造blog" class="headerlink" title="编写以及创造blog"></a>编写以及创造blog</h1><ol><li>下载node.js</li><li>下载cnpm工具： npm install -g cnpm –registry-<a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a> </li><li>用cnpm安装hexo：cnpm install -g hexo-cli</li><li>创建文件： mkdir blog 进入文件</li><li>初始化博客： sudo hexo init</li><li>启动博客： hexo s</li><li>新建文档： hexo n “           “</li><li>进入博客的文档，开始书写文档</li><li>书写完毕后要退回blog 文档</li><li>清理hexo： hexo clean</li><li>生成 ： hexo g</li><li>再启动： hexo s</li></ol><h1 id="把博客部署到远端去"><a href="#把博客部署到远端去" class="headerlink" title="把博客部署到远端去"></a>把博客部署到远端去</h1><ol><li>创建github仓库</li><li>blog文档下安装插件：cnpm install –save hexo-deployer-git</li><li>设置_config.yml文件中的 #Deployment 中 </li></ol><p><img src="C:\Users\市井小民\AppData\Roaming\Typora\typora-user-images\image-20210324000413772.png" alt="image-20210324000413772"></p><p>​    4.部署到远端：hexo d ，可以先hexo clean ，hexo g</p><h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><ol><li><p><img src="C:\Users\市井小民\AppData\Roaming\Typora\typora-user-images\image-20210324000733319.png" alt="image-20210324000733319"></p><p>2.进入blog文档</p><p>3.<img src="C:\Users\市井小民\AppData\Roaming\Typora\typora-user-images\image-20210324000926095.png" alt="image-20210324000926095"></p><p>4.在config文件中的</p></li></ol><p><img src="C:\Users\市井小民\AppData\Roaming\Typora\typora-user-images\image-20210324001106523.png" alt="image-20210324001106523"></p><p>5.hexo clean, hexo g ,hexo s , hexo</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
