@@ -173,8 +173,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-03-24 00:27" pubdate>
-        2021年3月24日 凌晨
+      <time datetime="2021-03-25 12:53" pubdate>
+        2021年3月25日 下午
       </time>
     </span>
   
@@ -185,7 +185,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      182 字
+      780 字
     </span>
   
 
@@ -195,7 +195,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      2
+      8
        分钟
     </span>
   
@@ -228,36 +228,23 @@
             <h1 style="display: none"></h1>
             
             <div class="markdown-body">
-              <h1 id="编写以及创造blog"><a href="#编写以及创造blog" class="headerlink" title="编写以及创造blog"></a>编写以及创造blog</h1><ol>
-<li>下载node.js</li>
-<li>下载cnpm工具： npm install -g cnpm –registry-<a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a> </li>
-<li>用cnpm安装hexo：cnpm install -g hexo-cli</li>
-<li>创建文件： mkdir blog 进入文件</li>
-<li>初始化博客： sudo hexo init</li>
-<li>启动博客： hexo s</li>
-<li>新建文档： hexo n “           “</li>
-<li>进入博客的文档，开始书写文档</li>
-<li>书写完毕后要退回blog 文档</li>
-<li>清理hexo： hexo clean</li>
-<li>生成 ： hexo g</li>
-<li>再启动： hexo s</li>
-</ol>
-<h1 id="把博客部署到远端去"><a href="#把博客部署到远端去" class="headerlink" title="把博客部署到远端去"></a>把博客部署到远端去</h1><ol>
-<li>创建github仓库</li>
-<li>blog文档下安装插件：cnpm install –save hexo-deployer-git</li>
-<li>设置_config.yml文件中的 #Deployment 中 </li>
-</ol>
-<p><img src="C:\Users\市井小民\AppData\Roaming\Typora\typora-user-images\image-20210324000413772.png" srcset="/img/loading.gif" lazyload alt="image-20210324000413772"></p>
-<p>​    4.部署到远端：hexo d ，可以先hexo clean ，hexo g</p>
-<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><ol>
-<li><p><img src="C:\Users\市井小民\AppData\Roaming\Typora\typora-user-images\image-20210324000733319.png" srcset="/img/loading.gif" lazyload alt="image-20210324000733319"></p>
-<p>2.进入blog文档</p>
-<p>3.<img src="C:\Users\市井小民\AppData\Roaming\Typora\typora-user-images\image-20210324000926095.png" srcset="/img/loading.gif" lazyload alt="image-20210324000926095"></p>
-<p>4.在config文件中的</p>
-</li>
-</ol>
-<p><img src="C:\Users\市井小民\AppData\Roaming\Typora\typora-user-images\image-20210324001106523.png" srcset="/img/loading.gif" lazyload alt="image-20210324001106523"></p>
-<p>5.hexo clean, hexo g ,hexo s , hexo</p>
+              <h1 id="面向对象的概念和特点"><a href="#面向对象的概念和特点" class="headerlink" title="面向对象的概念和特点"></a>面向对象的概念和特点</h1><h2 id="1-面向对象的概念："><a href="#1-面向对象的概念：" class="headerlink" title="1.面向对象的概念："></a>1.面向对象的概念：</h2><p>1.面向对象和面向过程其实就像我们用洗衣机洗衣服，面向过程更加注重与每一个步骤，比如放入洗衣机，按开关，倒洗衣液用函数来实现。而面向对象更注重于每一个对象，把人和洗衣机分为两个对象再提出每个对象的属性和方法，写出类，再new对象来实现。就像你是一个老板你要去完成一件事情，你可以自己寻找每一个工具，用工具来完成，你也可以寻早每一个人，每一个人有工具和方法，让他们帮你完成这个项目。</p>
+<p>2.new对象就是在调用构造方法，构造方法名必须和类名一致</p>
+<p>3.构造方法分为隐式无参构造器和显示定一个或多个构造器（无参，有参）</p>
+<p>4.构造器其实就像一个给属性赋<strong>初始值</strong>的方法。</p>
+<h2 id="2-面向对象的特点"><a href="#2-面向对象的特点" class="headerlink" title="2.面向对象的特点"></a>2.面向对象的特点</h2><h2 id="1-封装，隐藏："><a href="#1-封装，隐藏：" class="headerlink" title="1.封装，隐藏："></a>1.封装，隐藏：</h2><p>概念：为了不让调用者随意的给类中的变量赋值，就可以封装和隐藏……java中将数据声明为私有的（private），在提供公共的（public）方法：getXxx()和setXxx()实现对该属性的操作。</p>
+<p>实现：想把属性设置声明私有的，用private关键字，通过编写public类型的setXxx()和getXXX()方法来设置属性和获取属性。</p>
+<p>示例：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> age;<br>	<span class="hljs-keyword">private</span> String name;<br>	<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getAge</span><span class="hljs-params">()</span> </span>&#123;<br>		<span class="hljs-keyword">return</span> age;<br>	&#125;<br><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setAge</span><span class="hljs-params">(<span class="hljs-keyword">int</span> age)</span> </span>&#123;<br>	<span class="hljs-keyword">this</span>.age = age;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">getName</span><span class="hljs-params">()</span> </span>&#123;<br>	<span class="hljs-keyword">return</span> name;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">setName</span><span class="hljs-params">(String name)</span> </span>&#123;<br>	<span class="hljs-keyword">this</span>.name = name;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h2 id="2-继承"><a href="#2-继承" class="headerlink" title="2.继承"></a>2.继承</h2><p>概念：对父类的（共性代码）属性继承，子类继承后添加新的属性或方法（特有代码）。</p>
+<p>实现：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs java">`<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Student</span> <span class="hljs-keyword">extends</span> <span class="hljs-title">person</span>`</span><br><span class="hljs-class"></span><br><span class="hljs-class"></span><br></code></pre></td></tr></table></figure>
+
+<h2 id="多态："><a href="#多态：" class="headerlink" title="多态："></a>多态：</h2><h3 id="1-多态的体现"><a href="#1-多态的体现" class="headerlink" title="1.多态的体现:"></a>1.多态的体现:</h3><p>1.方法的重载（本类中的同名方法），重写（子类对父类的覆盖）</p>
+<p>2.对象的多态性，–可以直接应用在抽象类和接口上。</p>
+<p>3.JAVA引用变量有两个类型:编译时类型和运行时类型.编译时类型由声明该变量时使用的类型决定，运行时类型由实际赋给该变量的对象决定。变量时使用的类型决定，若编译时类型和运行时类型不一致（动态绑定），就出现多(Polymorphism)<br>若编译时类型和运行时类型不一致，就出现多态(多态性)</p>
+<p>4.对象的多态-在Java中,子类的对象可以替代父类的对象使用对象的多态-在中，子类的对象可以替代父类的对象使用一个变量只能有一种确定的数据类型一个引用类型变量可能指向(引用)多种不同类型的对象<br>Person p = new Student();<br>Person P=新学生()；Person e = new Student(); // Person类型的变量e,指向Student类型的对象<br>5.子类可看做是特殊的父类，所以父类类型的引用可以指向子类的对象:向上转型</p>
 
             </div>
             <hr>
@@ -278,7 +265,7 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/03/25/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">
+                      <a href="/2021/03/25/Untitled%202/">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile"></span>
                         <span class="visible-mobile">Vorheriger</span>
@@ -287,6 +274,12 @@
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2021/03/25/%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/">
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">Nächster</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
